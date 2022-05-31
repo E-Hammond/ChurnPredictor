@@ -1,0 +1,11 @@
+complaint,status,age,monthly_charges,tenure
+Unsolicited subscribe messages,not resolved,30-49,49.833333525,4
+Service or network interruption,resolved,18-29,50.0,6
+Poor Customer Service,resolved,65+,30.0,22
+Poor Customer Service,resolved,18-29,7.5,7
+Coverage Issue,resolved,18-29,7.5,18
+USSD Errors,not resolved,50-64,57.5,4
+Coverage Issue,resolved,50-64,4.5,19
+Slow Internet,resolved,18-29,50.0,14
+Service or network interruption,resolved,50-64,6.0,2
+Unsolicited subscribe messages,resolved,50-64,43.333335,2
