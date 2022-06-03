@@ -65,7 +65,7 @@ toml==0.10.2
 tomli==1.2.2
 typing-extensions==3.7.4.3
 typish==1.9.3
-vtk==9.0.1
+vtk
 wandb==0.12.10
 wrapt==1.12.1
 yaspin==2.1.0
