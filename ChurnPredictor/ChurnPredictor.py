@@ -8,7 +8,8 @@ import pickle, os
 from helper import encoder, standardise
 
 ##---------------READING FILES-------------------------------
-path = '/home/emmanuel/Documents/FAKER/ChurnPredictor/staticfiles'
+# path = '/home/emmanuel/Documents/FAKER/ChurnPredictor/staticfiles'
+path = 'https://github.com/E-Hammond/ChurnPredictor/blob/main/ChurnPredictor/staticfiles'
 img_path = '/home/emmanuel/Documents/FAKER/ChurnPredictor/images'
 model_path = '/home/emmanuel/Documents/FAKER/ChurnPredictor/model'
 
