@@ -97,10 +97,10 @@ r.metric('Accuracy','83%')
 
 
 ###------------------------ WRITING THE CONTENT OF THE BODY OF THE PREDICTOR-------------------------
-st.markdown('''
-            The churn predictor app is a tool used for making predictions based on a predefined set of indicators.
-            The impact of the indicators on customer churn rate is shown below :
-            ''')
+# st.markdown('''
+#            The churn predictor app is a tool used for making predictions based on a predefined set of indicators.
+#            The impact of the indicators on customer churn rate is shown below :
+#           ''')
 
 ###---------------------------- ADDING AN IMAGE TO THE PAGE--------------------------------------------
 
@@ -109,10 +109,10 @@ st.markdown('''
 im_l,im_m,im_r = st.columns(3)
 # im_l.image(img, caption='Figure 1: Indicator Importance', width=420)
 #------------------------------------------------------------------------------------------------------
-st.write('***')
-st.markdown('''
-            The performance of the predictor is evaluated based on the its accuracy and misclassification rate using a confusion matrix (This is shown below).
-            ''')
+#st.write('***')
+#st.markdown('''
+#            The performance of the predictor is evaluated based on the its accuracy and misclassification rate using a confusion matrix (This is shown below).
+#            ''')
 
 ### FIGURE 2
 # img = Image.open(os.path.join(img_path,'confusion.png'))
@@ -120,7 +120,7 @@ im_l,im_m,im_r = st.columns(3)
 # im_l.image(img, caption='Figure 2: Confusion Matrix', width=330)
 
 #----------------------------------------------------------------------------------------------
-st.write('***')
+# st.write('***')
 ## ADDING A FILE UPLOADER
 st.subheader('Upload a CSV file and make predictions')
 st.markdown('**Hint 1 :** Check the sample CSV file box below to view the format of the CSV file to be uploaded.')
