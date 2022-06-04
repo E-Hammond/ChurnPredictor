@@ -103,7 +103,7 @@ st.markdown('''
 ###---------------------------- ADDING AN IMAGE TO THE PAGE--------------------------------------------
 
 ### FIGURE 1
-img = Image.open(os.path.join(img_path,'indicators.png'))
+# img = Image.open(os.path.join(img_path,'indicators.png'))
 im_l,im_m,im_r = st.columns(3)
 im_l.image(img, caption='Figure 1: Indicator Importance', width=420)
 #------------------------------------------------------------------------------------------------------
@@ -113,7 +113,7 @@ st.markdown('''
             ''')
 
 ### FIGURE 2
-img = Image.open(os.path.join(img_path,'confusion.png'))
+# img = Image.open(os.path.join(img_path,'confusion.png'))
 im_l,im_m,im_r = st.columns(3)
 im_l.image(img, caption='Figure 2: Confusion Matrix', width=330)
 
