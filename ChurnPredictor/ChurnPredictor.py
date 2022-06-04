@@ -9,13 +9,13 @@ from helper import encoder, standardise
 
 ##---------------READING FILES-------------------------------
 # path = '/home/emmanuel/Documents/FAKER/ChurnPredictor/staticfiles'
-path = 'https://github.com/E-Hammond/ChurnPredictor/blob/main/ChurnPredictor/staticfiles'
-img_path = '/home/emmanuel/Documents/FAKER/ChurnPredictor/images'
-model_path = '/home/emmanuel/Documents/FAKER/ChurnPredictor/model'
+# path = 'https://github.com/E-Hammond/ChurnPredictor/blob/main/ChurnPredictor/staticfiles'
+# img_path = '/home/emmanuel/Documents/FAKER/ChurnPredictor/images'
+# model_path = '/home/emmanuel/Documents/FAKER/ChurnPredictor/model'
 
-sample = pd.read_csv(os.path.join(path,'sample.csv'))
-sample_upload = pd.read_csv(os.path.join(path,'sample_upload.csv'))
-file = os.path.join(model_path,'bagging_classifier.pkl')
+# sample = pd.read_csv(os.path.join(path,'sample.csv'))
+# sample_upload = pd.read_csv(os.path.join(path,'sample_upload.csv'))
+# file = os.path.join(model_path,'bagging_classifier.pkl')
 
 
 
