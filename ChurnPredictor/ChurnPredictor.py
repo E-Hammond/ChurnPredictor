@@ -105,7 +105,7 @@ st.markdown('''
 ### FIGURE 1
 # img = Image.open(os.path.join(img_path,'indicators.png'))
 im_l,im_m,im_r = st.columns(3)
-im_l.image(img, caption='Figure 1: Indicator Importance', width=420)
+# im_l.image(img, caption='Figure 1: Indicator Importance', width=420)
 #------------------------------------------------------------------------------------------------------
 st.write('***')
 st.markdown('''
@@ -115,7 +115,7 @@ st.markdown('''
 ### FIGURE 2
 # img = Image.open(os.path.join(img_path,'confusion.png'))
 im_l,im_m,im_r = st.columns(3)
-im_l.image(img, caption='Figure 2: Confusion Matrix', width=330)
+# im_l.image(img, caption='Figure 2: Confusion Matrix', width=330)
 
 #----------------------------------------------------------------------------------------------
 st.write('***')
