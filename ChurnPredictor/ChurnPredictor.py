@@ -177,6 +177,6 @@ except:
 
 
 
-st.markdown('**Note :** * **<<<<<You can make single predictions on the scoreboard on the sidebar.<<<<<** *')
+st.markdown('**Note :** **<<<<<** *You can make single predictions on the scoreboard on the sidebar.* **<<<<<**')
 #----------------------------------------------------------------------------------
 st.write('***')
