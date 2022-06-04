@@ -170,8 +170,8 @@ except:
 
 
 ##### DOWNLOAD BUTTON
-with open(os.path.join(path,'prediction.csv')) as f:
-    st.download_button('Download',f)
+# with open(os.path.join(path,'prediction.csv')) as f:
+#     st.download_button('Download',f)
 
 
 
