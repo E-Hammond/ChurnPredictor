@@ -13,11 +13,11 @@ from helper import encoder, standardise
 # img_path = '/home/emmanuel/Documents/FAKER/ChurnPredictor/images'
 # model_path = '/home/emmanuel/Documents/FAKER/ChurnPredictor/model'
 path = 'https://github.com/E-Hammond/ChurnPredictor/blob/main/ChurnPredictor/staticfiles'
-# path2 = 'https://raw.githubusercontent.com/E-Hammond/ChurnPredictor/main/ChurnPredictor/staticfiles/sample.csv'
+path2 = './staticfiles'
 
 
 sample = pd.read_html(os.path.join(path,'sample.csv'))[0].drop(['Unnamed: 0'],axis=1)
-sample_upload = pd.read_html(os.path.join(path,'sample_upload.csv'))[0].drop(['Unnamed: 0'], axis=1)
+sample_upload = pd.read_html(os.path.join(path2,'sample_upload.csv'))[0].drop(['Unnamed: 0'], axis=1)
 # file = os.path.join(model_path,'bagging_classifier.pkl')
 
 
