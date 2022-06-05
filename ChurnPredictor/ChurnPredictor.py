@@ -17,7 +17,7 @@ path = 'https://github.com/E-Hammond/ChurnPredictor/blob/main/ChurnPredictor/sta
 
 
 sample = pd.read_html(os.path.join(path,'sample.csv'))[0].drop(['Unnamed: 0'],axis=1)
-sample_upload = pd.read_csv(os.path.join(path,'sample_upload.csv'))[0].drop(['Unnamed: 0'], axis=1)
+sample_upload = pd.read_html(os.path.join(path,'sample_upload.csv'))[0].drop(['Unnamed: 0'], axis=1)
 # file = os.path.join(model_path,'bagging_classifier.pkl')
 
 
